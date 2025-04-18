@@ -65,6 +65,7 @@ h1 {
 
 h2 {
     color: white !important;
+    font-size: 35px !important;
 }
 
 .agendar {
@@ -84,6 +85,8 @@ h2 {
     background-color: #1E1E1E;
     align-items: center;
     text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 1.5rem;
 }
 
 .cards-servicos {
@@ -91,15 +94,39 @@ h2 {
     flex-wrap: wrap;
     align-items: center !important;
     padding: 2rem;
+    padding-inline: 0 !important;
     justify-content: center;
 }
 
 .card {
-    margin-inline: 50px;
+    margin-inline: 30px;
+    width: 350px !important;
     background-color: var(--pretoFundo) !important;
     border-radius: 10px !important;
     border-color: #CA8B0C !important;
     border-width: 1px !important;
     text-align: start;
     color: white !important;
+}
+
+/*título do card*/
+h5 {
+    font-size: 25px !important;
+    font-weight: normal !important;
+    color: #CA8B0C !important;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/*Preço do card*/
+h6 {
+    font-size: 25px !important;
+    color: white !important;
+    font-weight: 600 !important;
+}
+
+/*icone dos cards*/
+.foto-elemento-card {
+    width: 40px;
+    height: 40px;
 }
