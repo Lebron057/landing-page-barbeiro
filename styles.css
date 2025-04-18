@@ -136,3 +136,13 @@ h6 {
     text-align: center;
     padding-top: 3.5rem;
 }
+
+.div-agendamento {
+    margin-inline: 30rem;
+    display: grid;
+    gap: 20px;
+}
+
+.agende-linha {
+    background-color: #343434 !important;
+}
