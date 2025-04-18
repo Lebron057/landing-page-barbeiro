@@ -1,6 +1,7 @@
 :root {
     --pretoFundo: black;
     --linhaPagina: rgb(#343434);
+    --cinzaFundo: rgb(#1E1E1E);
     --amareloMain: rgb(#CA8B0C);
 }
 
@@ -41,6 +42,7 @@ nav {
 .first-page{
     padding-top: 70px;
     text-align: center;
+    height: 720px;
 }
 
 .sub-titulo {
@@ -61,6 +63,10 @@ h1 {
     color: #CA8B0C !important;
 }
 
+h2 {
+    color: white !important;
+}
+
 .agendar {
     border-width: 0px;
     border-radius: 10px;
@@ -72,4 +78,28 @@ h1 {
     width: 247px;
     height: 49px;
     flex-shrink: 0;
+}
+
+.sect-servicos {
+    background-color: #1E1E1E;
+    align-items: center;
+    text-align: center;
+}
+
+.cards-servicos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center !important;
+    padding: 2rem;
+    justify-content: center;
+}
+
+.card {
+    margin-inline: 50px;
+    background-color: var(--pretoFundo) !important;
+    border-radius: 10px !important;
+    border-color: #CA8B0C !important;
+    border-width: 1px !important;
+    text-align: start;
+    color: white !important;
 }
