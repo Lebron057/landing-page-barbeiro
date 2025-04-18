@@ -98,8 +98,35 @@
       </section>
 
       <!--Terceira parte - Agende seu horário-->
-      <section>
-        
+      <section class="sect-agendamento">
+          <h2>Agende seu horário</h2>
+          <div class="div-agendamento">
+
+            <!--1 linha - NOME-->
+            <div class="mb-3">
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
+            </div>
+
+            <!--2 linha - TELEFONE-->
+            <div class="mb-3">
+              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input placeholder">
+            </div>
+            
+            <!--3 linha - ESCOLHA O SERVIÇO-->
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Selecione o serviço</option>
+              <option value="1">Corte de cabelo</option>
+              <option value="2">Barba</option>
+              <option value="3">Sombrancelha</option>
+            </select>
+
+            <!--4 linha - DATA-->
+            <form>
+              <input class="form-control" type="date" id="data" name="data" required>
+            </form>
+      
+          </div>
+
       </section>
     </main>
 

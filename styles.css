@@ -1,8 +1,9 @@
 :root {
     --pretoFundo: black;
-    --linhaPagina: rgb(#343434);
-    --cinzaFundo: rgb(#1E1E1E);
-    --amareloMain: rgb(#CA8B0C);
+    --linhaPagina: #343434;
+    --cinzaFundo: #1E1E1E;
+    --cinzaFundoEscuro: #141414;
+    --amareloMain: #CA8B0C;
 }
 
 * {
@@ -60,7 +61,7 @@ nav {
 
 h1 {
     font-size: 60px !important;
-    color: #CA8B0C !important;
+    color: var(--amareloMain) !important;
 }
 
 h2 {
@@ -71,9 +72,8 @@ h2 {
 .agendar {
     border-width: 0px;
     border-radius: 10px;
-    /*Não funciona quando utilizo a variavel "amareloMain"*/
-    background-color: #CA8B0C;
-    color: #000;
+    background-color: var(--amareloMain);
+    color: var(--pretoFundo);
     text-align: center;
     font-size: 25px;
     width: 247px;
@@ -103,7 +103,7 @@ h2 {
     width: 350px !important;
     background-color: var(--pretoFundo) !important;
     border-radius: 10px !important;
-    border-color: #CA8B0C !important;
+    border-color: var(--amareloMain) !important;
     border-width: 1px !important;
     text-align: start;
     color: white !important;
@@ -113,7 +113,7 @@ h2 {
 h5 {
     font-size: 25px !important;
     font-weight: normal !important;
-    color: #CA8B0C !important;
+    color: var(--amareloMain) !important;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
@@ -129,4 +129,10 @@ h6 {
 .foto-elemento-card {
     width: 40px;
     height: 40px;
+}
+
+.sect-agendamento {
+    background-color: var(--cinzaFundoEscuro);
+    text-align: center;
+    padding-top: 3.5rem;
 }
