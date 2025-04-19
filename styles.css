@@ -188,3 +188,27 @@ h6 {
     margin: 0;
     width: 100%;
 }
+
+.sect-rodape {
+    background-color: var(--cinzaFundoEscuro);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    justify-content: center;
+}
+
+.cards-rodape {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    padding: 0.5rem;
+    padding-inline: 0 ;
+    justify-content: center;
+    gap: 10rem;
+}
+
+.card-rodape {
+    text-align: start;
+    color: #54748B;
+}
