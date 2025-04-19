@@ -4,6 +4,7 @@
     --cinzaFundo: #1E1E1E;
     --cinzaFundoEscuro: #141414;
     --amareloMain: #CA8B0C;
+    --cinzaFormFundo: #343434;
 }
 
 * {
@@ -139,10 +140,19 @@ h6 {
 
 .div-agendamento {
     margin-inline: 30rem;
+    margin-top: 32px;
     display: grid;
     gap: 20px;
 }
 
 .agende-linha {
-    background-color: #343434 !important;
+    background-color: var(--linhaPagina) !important;
+    color: white !important;
+    border-color: var(--cinzaFundoEscuro) !important;
+    border-radius: 10px;
+    border-width: 0.1px !important;
+}
+
+.agende-linha::placeholder{
+    color: #3C5466 !important;
 }
