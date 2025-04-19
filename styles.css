@@ -181,3 +181,10 @@ h6 {
     width: 1080px;
     height: 480px;
 }
+
+.linha-divisoria {
+    height: 1px;
+    background-color: var(--amareloMain);
+    margin: 0;
+    width: 100%;
+}
