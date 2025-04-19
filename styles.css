@@ -149,7 +149,7 @@ h6 {
 .agende-linha {
     background-color: var(--linhaPagina) !important;
     color: white !important;
-    border-color: var(--cinzaFundoEscuro) !important;
+    border-color: var(--amareloMain) !important;
     border-radius: 10px;
     border-width: 0.1px !important;
 }
@@ -168,4 +168,16 @@ h6 {
     width: 350px;
     height: 38px;
     flex-shrink: 0;
+}
+
+.sect-nossa-barbearia{
+    background-color: var(--cinzaFundoEscuro);
+    text-align: center;
+    padding: 3.5rem;
+}
+
+.imag-carrossel {
+    margin-top: 3rem;
+    width: 1080px;
+    height: 480px;
 }
