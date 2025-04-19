@@ -141,6 +141,7 @@ h6 {
 .div-agendamento {
     margin-inline: 30rem;
     margin-top: 32px;
+    margin-bottom: 1.5rem;
     display: grid;
     gap: 20px;
 }
@@ -155,4 +156,16 @@ h6 {
 
 .agende-linha::placeholder{
     color: #3C5466 !important;
+}
+
+.agendar-seg {
+    border-width: 0px;
+    border-radius: 10px;
+    background-color: var(--amareloMain);
+    color: var(--pretoFundo);
+    text-align: center;
+    font-size: 20px;
+    width: 480px;
+    height: 38px;
+    flex-shrink: 0;
 }
