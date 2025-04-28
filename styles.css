@@ -241,6 +241,7 @@ h6 {
         height: 100px;
         top: 357px;
         left: 151px;
+        margin-bottom: 2rem !important;
     }
 
     .cards-servicos{
@@ -291,5 +292,19 @@ h6 {
         font-size: 20px;
         width: 230px;
         height: 38px;
+    }
+
+    .cards-rodape {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: start;
+        padding: 0.5rem;
+        padding-inline: 0 ;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    p {
+        margin-bottom: 0 !important;
     }
 }
