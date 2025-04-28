@@ -243,6 +243,16 @@ h6 {
         left: 151px;
     }
 
+    .cards-servicos{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        align-items: center !important;
+        padding: 2rem;
+        padding-inline: 0 !important;
+        justify-content: center;
+    }
+
     .div-agendamento {
         margin-inline: 0;
         margin-top: 32px;
